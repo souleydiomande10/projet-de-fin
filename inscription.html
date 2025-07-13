@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mode connect - login &amp; signup Form</title>
+    <link rel="stylesheet" href="inscris.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="title-text">
+            <div class="title login">connexion</div>
+            <div class="title signup">inscription</div>
+        </div>
+
+        <div class="form-container">
+            <div class="slide-controls">
+
+                <input type="radio" name="slide" id="login" checked>
+                <input type="radio" name="slide" id="signup">
+
+                <label for="login" class="slide login">connexion</label>
+                <label for="signup" class="slide signup">inscription</label>
+                <div class="slider-tab"></div>
+            </div>
+
+            <div class="form-inner">
+
+                <form action="#" class="login">
+
+                    <div class="field">
+                        <input type="text" placeholder="Entrez votre e-mail" required>
+                    </div>
+
+                    <div class="field">
+                        <input type="password" placeholder="Entrez votre mot de passe" required>
+                    </div>
+
+                    <div class="pass-link"><a href="">Mot de passe oublié?</a></div>
+
+                    <div class="field btn">
+
+                        <div class="btn-layer"></div>
+
+                        <input type="submit" value="Se connecter">
+                    </div>
+
+                    <div class="signup-link">Pas Membre? <a href="#">Inscrivez-vous</a></div>
+
+                </form>
+
+                <form action="#" class="signup">
+
+                    <div class="field">
+                        <input type="text" placeholder="Entrez votre e-mail" required>
+                    </div>
+
+                    <div class="field">
+                        <input type="password" placeholder="Entrez votre mot de passe" required>
+                    </div>
+
+                    <div class="field">
+                        <input type="password" placeholder="Confirmez votre mot de passe" required>
+                    </div>
+    
+                    <div class="field btn">
+
+                        <div class="btn-layer"></div>
+                        
+                        <input type="submit" value="S'inscrire">
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="inscris.js"></script>
+</body>
+</html>
